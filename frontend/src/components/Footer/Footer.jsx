@@ -9,11 +9,11 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='footer-content-left'>
                 <img src={assets.logo} alt='logo' />
-                <p>hey</p>
+                <p>For any query, contact me</p>
                 <div className='footer-social-icons'>
                 <a href="https://www.instagram.com/anurag_16_01/" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faInstagram} size="3x" />
-      </a>
+                <FontAwesomeIcon icon={faInstagram} size="3x" />
+                </a>
                     <a href="https://x.com/AnuragChan37994" target='_blank'><img src={assets.twitter_icon} alt=""></img></a>
                     <a href="https://www.linkedin.com/in/anurag-chandra-485876267/" target="_blank" rel="noopener noreferrer">
                     <img src={assets.linkedin_icon} alt="LinkedIn Profile"></img>
